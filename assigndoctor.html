@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assign doctro</title>
+    <link rel="stylesheet" href="asset/css/doc.css">
+</head>
+<body>
+    <section class="viewpt">
+        <div class="intros">
+            <div class="logo">
+                <a href="index.html"><img src="image/aastu logo.jpg" alt="img"></a>
+            </div>
+           
+            <div class="intro">
+                <h1>| ASSIGN DOCTOR</h1>
+            </div>
+            
+            <div class="logout">
+               
+                <span></span>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">staff<i class="fa-sharp fa-solid fa-caret-down"></i></button>
+                    <div id="myDropdown" class="dropdown-content ">
+                      <a href="">Dr zelalem AMENSA</a>
+                      <a href="#" class="cpwrd" onclick="ChangeFunction()">change password</a>
+                      <a href="">logout</a>
+                    </div>
+             </div>
+            </div>
+        </div>
+        <section   class="">
+            <div>
+        
+                <div>
+                    <div class="addpatient " style="position: absolute; top: 0; z-index: 10; background-color: transparent;" >
+                        <form action="" class="crtact " id="nwpswrd" >
+                            <div class="hed">
+                            <h1>CHANGE password</h1>
+                            <i class="clicke">x</i>
+                            </div>
+        
+                            <div class="column">
+                                <div class="row">
+                                    <label for="oldpswrd">OLD password:</label>
+                                    <input type="password" id="oldpswrd" name="oldpassword" placeholder="enter old password..." required>
+                                </div>
+                                <div class="row">
+                                    <label for="pswrd">NEW password:</label>
+                                    <input type="password" id="newpswrd" name="newpswrd" placeholder="enter new password..." required>
+                                </div>
+                                <div class="row">
+                                    <label for="pswrd">CONFIRM password:</label>
+                                    <input type="password" id="confpswrd" name="confpswrd" placeholder="confirm password..." required>
+                                </div>
+                                <div class="error none ">
+                                    <p style="color: red; font-size: 10px; margin: 15px;">it doesn't match please confirm the password!!!!!!</p>
+                                </div>
+                                <div class="sucess none ">
+                                    <p style="color:green; font-size: 10px; margin: 15px;">sucessfully matched the password!!!!!!</p>
+                                </div>
+                                <button>CHANGE</button>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+         </section>
+
+    </section>
+    <section class="medic">
+        <table class="table"> 
+            <thead>
+                <tr>
+                <th>ID-NO</th>
+                <th> FIRSTNAME</th>
+                <th>LASTNAME</th>
+                <th>DEPARTEMENT</th>
+                <th>AGE</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ETS 1190/11</td>
+                    <td>YONATAN MULATU </td>
+                    <td> AMENSA</td>
+                    <td>electrical engineering</td>
+                    <td>24</td>
+                    <td><a ><BUTton>edit</BUTton></a></td>
+                </tr>
+                <tr>
+                    <td>ETS 1190/11</td>
+                    <td>ZELALEM  </td>
+                    <td> AMENSA</td>
+                    <td>electrical engineering</td>
+                    <td>24</td>
+                    <td><BUTton>edit</BUTton></td>
+                </tr>
+                <tr>
+                    <td>ETS 1190/11</td>
+                    <td>ZELALEM  </td>
+                    <td> AMENSA</td>
+                    <td>electrical engineering</td>
+                    <td>24</td>
+                    <td><BUTton>edit</BUTton></td>
+                </tr>
+                <tr>
+                    <td>ETS 1190/11</td>
+                    <td>ZELALEM  </td>
+                    <td> AMENSA</td>
+                    <td>electrical engineering</td>
+                    <td>24</td>
+                    <td><BUTton>edit</BUTton></td>
+                </tr>
+                <tr>
+                    <td>ETS 1190/11</td>
+                    <td>ZELALEM  </td>
+                    <td> AMENSA</td>
+                    <td>electrical engineering</td>
+                    <td>24</td>
+                    <td><BUTton>edit</BUTton></td>
+                </tr>
+                <tr>
+                    <td>ETS 1190/11</td>
+                    <td>ZELALEM  </td>
+                    <td> AMENSA</td>
+                    <td>electrical engineering</td>
+                    <td>24</td>
+                    <td><BUTton>edit</BUTton></td>
+                </tr>
+                
+                    </tbody>
+                </table>
+                
+</section>
+<section class="assigndoc">
+    <h1>select doctor</h1>
+    
+    <form action="">
+        <div class="column">
+            <div class="doc">
+                <label for="doc">DOCTOR</label>
+                <select name="labassign" id="doc" >
+                    <option value="dr bebe"> DR ABEBE</option>
+                    <option value="kebede"> dr KEBEDE</option>
+                    <option value="kebede">YONATAN</option>
+                </select>
+            </div>
+                <button>SEND</button>
+         </div>
+    </form>
+
+</section>
+<footer>
+    <h5> cms 2022 all right reserved</h5>
+</footer>
+<script src="/ADMIN DASH/main.js"></script>
+</body>
+</html>
